@@ -1,0 +1,15 @@
+/* CSS - Cascading Style Sheet/s */
+h1 {
+  /* key: value */
+  font-size: 160px;
+}
+
+button {
+  background-color: cyan;
+  /* Space outside; pinakalabas */
+  margin: 50px;
+  /* Edge of the element */
+  border: 1px solid #181d21;
+  /* Space inside; pinakaloob */
+  padding: 10px;
+}
