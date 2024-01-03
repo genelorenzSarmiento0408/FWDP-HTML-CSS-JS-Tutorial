@@ -2,6 +2,10 @@
 
 /* the asterisk (*) selects ALL tags*/
 /* the selector selects ALL CHILDREN TAGS */
+
+:root {
+  font-size: 32px;
+}
 * {
   color: white;
 }
@@ -13,7 +17,10 @@ h1 {
   font-size: 160px;
   font-weight: lighter;
 }
-
+span.tags {
+  color: green;
+  font-size: 10rem;
+}
 button {
   background-color: cyan;
   /* Space outside; pinakalabas */
@@ -21,10 +28,18 @@ button {
   /* Edge of the element */
   border: 1px solid #181d21;
   /* Space inside; pinakaloob */
-  padding: 15px;
+  padding: 1em;
 }
 
 .tags {
   color: red;
   font-weight: 900;
 }
+/* ID Selector is worth 100 pts.  */
+li#gulay::first-letter {
+  color: green;
+  font-size: 4.5rem;
+}
+/* font sizes - rem */
+/* padding/margin - em */
+/* border - px */
