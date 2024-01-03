@@ -1,0 +1,20 @@
+ul {
+  color: #202124;
+  font-family: Roboto, arial, sans-serif;
+  display: flex;
+  list-style-type: none;
+  /* Use gap in the parent's element */
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  /* align-* opposite of flex-direction */
+  /* justify-* same as flex-direction */
+  /* flex-direction is the axis */
+  flex-direction: row;
+}
+
+.sign_in {
+  color: white;
+  background-color: #4285f4;
+  padding: 15px 30px;
+}

@@ -1,7 +1,17 @@
 /* CSS - Cascading Style Sheet/s */
+
+/* the asterisk (*) selects ALL tags*/
+/* the selector selects ALL CHILDREN TAGS */
+* {
+  color: white;
+}
+body {
+  background-color: #181d21;
+}
 h1 {
   /* key: value */
   font-size: 160px;
+  font-weight: lighter;
 }
 
 button {
@@ -11,5 +21,10 @@ button {
   /* Edge of the element */
   border: 1px solid #181d21;
   /* Space inside; pinakaloob */
-  padding: 10px;
+  padding: 15px;
+}
+
+.tags {
+  color: red;
+  font-weight: 900;
 }
